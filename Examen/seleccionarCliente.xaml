@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen.seleccionarCliente"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             Title="Clientes">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Order="Primary" Text="Nuevo" Priority="1" Clicked="agregar"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+               <StackLayout>
+                <ListView x:Name="lst" RowHeight="80" HasUnevenRows="true" Margin="5" ItemTapped="ItemSeleccionado">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" VerticalOptions="Center">
+                                <controls:CircleImage Source="{Binding FotoCliente}" WidthRequest="50" HeightRequest="50" Aspect="AspectFill"/>
+                                <StackLayout Orientation="Vertical" HorizontalOptions="Center">
+                                    <Label Text="{Binding NombreCliente}" Font="18"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

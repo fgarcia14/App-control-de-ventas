@@ -1,0 +1,11 @@
+﻿<Properties StartupConfiguration="{32C0B89B-457F-4FBA-A1D8-39F34A1BC5E7}|Default">
+  <MonoDevelop.Ide.ItemProperties.Examen.Android PreferredExecutionTarget="Android.4_4" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MonoDevelop.Ide.ItemProperties.Examen.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.746866caf45eafc1bd27da5983684ae89ab03066" automaticSigning="False" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

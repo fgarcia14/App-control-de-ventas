@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="Examen.agregarProductos"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             Title="Nuevo producto">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Order="Primary" Text="Foto" Priority="0" Clicked="tomarFoto"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="35,15,15,15">
+                <StackLayout HorizontalOptions="Center" Orientation="Horizontal">
+                    <controls:CircleImage x:Name="PhotoImage" HeightRequest="160" WidthRequest="160" Aspect="AspectFill"/>
+                </StackLayout>
+                
+                <Label Text="Nombre" FontSize="Medium"/>
+                <Entry x:Name="nombre"/>
+                <Label Text="Precio de venta" FontSize="Medium"/>
+                <Entry x:Name="preciodeventa" Keyboard="Numeric"/>
+                <Label Text="Cantidad" FontSize="Medium"/>
+                <Entry x:Name="cantidad" Keyboard="Numeric"/>
+                <Label Text="Precio de costo" FontSize="Medium"/>
+                <Entry x:Name="preciodecosto" Keyboard="Numeric"/>
+                <Label Text="Descripcion:" FontSize="Medium"/>
+                <Editor x:Name="descipcion" HeightRequest="85"/>
+                
+                <Entry x:Name="foto" FontSize="Medium" IsVisible="false"/>
+                <Button Text="Guardar producto" FontSize="Medium" BorderRadius="24" Clicked="guardar"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             x:Class="Examen.editarProducto">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Order="Primary" Text="Foto" Priority="0" Clicked="tomarFoto"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="35,15,15,15">
+                <StackLayout HorizontalOptions="Center" Orientation="Horizontal">
+                    <controls:CircleImage x:Name="PhotoImage" Source="{Binding FotoProducto}" HeightRequest="160" WidthRequest="160" Aspect="AspectFill"/>
+                </StackLayout>
+                <Label x:Name="IdProducto" Text="{Binding IdProducto}" IsVisible="False"/>
+                <Label Text="Producto" FontSize="Medium"/>
+                <Entry x:Name="nombre" Text="{Binding NombreProducto}"/>
+                <Label Text="Precio de venta" FontSize="Medium"/>
+                <Entry x:Name="precioDeVenta" Keyboard="Numeric" Text="{Binding PreciodeVenta}"/>
+                <Label Text="Cantidad" FontSize="Medium"/>
+                <Entry x:Name="cantidad" FontSize="Medium" Text="{Binding Cantidad}"/>
+                <Label Text="Precio de costo" FontSize="Medium"/>
+                <Entry x:Name="precioDeCosto" Keyboard="Numeric" Text="{Binding PreciodeCosto}"/>
+                <Label Text="Descripcion" FontSize="Medium"/>
+                <Editor x:Name="descripcion" HeightRequest="85" Text="{Binding Descripcion}"/>
+                
+                <Entry x:Name="foto" Text="{Binding FotoProducto}" FontSize="Medium" IsVisible="false"/>
+                <Button Text="Guardar producto" FontSize="Medium" BorderRadius="24" Clicked="actualizar"/>
+                <Button Text="Eliminar producto" FontSize="Medium" BorderRadius="24" Clicked="eliminar"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

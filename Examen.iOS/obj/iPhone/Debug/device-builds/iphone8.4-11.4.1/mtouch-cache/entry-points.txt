@@ -1,0 +1,29 @@
+Function=xamarin_timezone_get_data
+	/Users/fidel/Google Drive/UCOL/7mo semestre/Programacion para dispositivos moviles/Examen/Examen.iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/fidel/Google Drive/UCOL/7mo semestre/Programacion para dispositivos moviles/Examen/Examen.iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/fidel/Google Drive/UCOL/7mo semestre/Programacion para dispositivos moviles/Examen/Examen.iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/fidel/Google Drive/UCOL/7mo semestre/Programacion para dispositivos moviles/Examen/Examen.iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/fidel/Google Drive/UCOL/7mo semestre/Programacion para dispositivos moviles/Examen/Examen.iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr
+	/Users/fidel/Google Drive/UCOL/7mo semestre/Programacion para dispositivos moviles/Examen/Examen.iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr
+	/Users/fidel/Google Drive/UCOL/7mo semestre/Programacion para dispositivos moviles/Examen/Examen.iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/fidel/Google Drive/UCOL/7mo semestre/Programacion para dispositivos moviles/Examen/Examen.iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_start_wwan
+	/Users/fidel/Google Drive/UCOL/7mo semestre/Programacion para dispositivos moviles/Examen/Examen.iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/mtouch-cache/1-Link/System.dll
+Function=CreateZStream
+	/Users/fidel/Google Drive/UCOL/7mo semestre/Programacion para dispositivos moviles/Examen/Examen.iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/mtouch-cache/1-Link/System.dll
+Function=CloseZStream
+	/Users/fidel/Google Drive/UCOL/7mo semestre/Programacion para dispositivos moviles/Examen/Examen.iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/mtouch-cache/1-Link/System.dll
+Function=Flush
+	/Users/fidel/Google Drive/UCOL/7mo semestre/Programacion para dispositivos moviles/Examen/Examen.iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/mtouch-cache/1-Link/System.dll
+Function=ReadZStream
+	/Users/fidel/Google Drive/UCOL/7mo semestre/Programacion para dispositivos moviles/Examen/Examen.iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/mtouch-cache/1-Link/System.dll
+Function=WriteZStream
+	/Users/fidel/Google Drive/UCOL/7mo semestre/Programacion para dispositivos moviles/Examen/Examen.iOS/obj/iPhone/Debug/device-builds/iphone8.4-11.4.1/mtouch-cache/1-Link/System.dll
+Function=mono_pmip

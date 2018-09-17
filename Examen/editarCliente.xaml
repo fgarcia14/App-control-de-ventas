@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
+             x:Class="Examen.editarCliente">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Order="Primary" Text="Foto" Priority="0" Clicked="tomarFoto"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="35,15,15,15">
+                <StackLayout HorizontalOptions="Center" Orientation="Horizontal">
+                    <controls:CircleImage x:Name="PhotoImage" Source="{Binding FotoCliente}" HeightRequest="160" WidthRequest="160" Aspect="AspectFill"/>
+                </StackLayout>
+                <Label x:Name="IdCliente" Text="{Binding IdCliente}" IsVisible="False"/>
+                <Label Text="Nombre" FontSize="Medium"/>
+                <Entry x:Name="nombre" Text="{Binding NombreCliente}"/>
+                <Label Text="Telefono" FontSize="Medium"/>
+                <Entry x:Name="telefono" Keyboard="Telephone" Text="{Binding Telefono}"/>
+                <Label Text="Correo Electronico" FontSize="Medium"/>
+                <Entry x:Name="correo" Keyboard="Email" FontSize="Medium" Text="{Binding Correo}"/>
+                <Label Text="Comentarios" FontSize="Medium"/>
+                <Editor x:Name="comentarios" HeightRequest="85" Text="{Binding Comentarios}"/>
+                
+                <Entry x:Name="foto" Text="{Binding FotoCliente}" FontSize="Medium" IsVisible="false"/>
+                <Button Text="Guardar cliente" FontSize="Medium" BorderRadius="24" Clicked="actualizar"/>
+                <Button Text="Eliminar cliente" FontSize="Medium" BorderRadius="24" Clicked="eliminar"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

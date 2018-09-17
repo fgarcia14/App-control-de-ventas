@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{3DF311EC-E409-4AC9-9AB3-417F6D87E49B}|Default">
+  <MonoDevelop.Ide.ItemProperties.Examen.Android PreferredExecutionTarget="Android.pixel_8_1" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MonoDevelop.Ide.ItemProperties.Examen.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.746866caf45eafc1bd27da5983684ae89ab03066" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Examen/NuevaVenta.xaml.cs">
+    <Files>
+      <File FileName="Examen/NuevaVenta.xaml.cs" Line="94" Column="13" />
+      <File FileName="Examen/Modelos/Ventas.cs" Line="20" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
